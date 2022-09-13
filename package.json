@@ -1,0 +1,33 @@
+{
+  "name": "chrome-extension-mock",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:analysis": "cross-env ANALYZE=1 npm run build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@extend-chrome/clipboard": "^2.0.0",
+    "@types/chrome": "^0.0.193",
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "antd": "^4.21.7",
+    "consola": "^2.15.3",
+    "less": "^4.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vite-plugin-style-import": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "rollup-plugin-visualizer": "^5.8.1"
+  }
+}
